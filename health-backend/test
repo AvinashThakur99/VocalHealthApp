@@ -1,0 +1,21 @@
+health-backend/
+├── config/
+│   └── db.js
+├── models/
+│   ├── User.js
+│   ├── Profile.js
+│   └── HealthRecord.js
+├── controllers/
+│   ├── authController.js
+│   ├── profileController.js
+│   └── healthController.js
+├── routes/
+│   ├── auth.js
+│   ├── profile.js
+│   └── health.js
+├── middleware/
+│   └── auth.js
+├── uploads/
+├── .env
+├── package.json
+└── server.js
